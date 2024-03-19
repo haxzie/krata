@@ -1,0 +1,90 @@
+{
+  "name": "krata-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --mode development",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "serve:production": "vue-cli-service serve --mode production"
+  },
+  "dependencies": {
+    "@deck.gl/core": "^8.8.14",
+    "@deck.gl/layers": "^8.8.14",
+    "@hawk.so/javascript": "^3.0.1",
+    "@mapbox/togeojson": "^0.16.0",
+    "@nebula.gl/layers": "^1.0.4",
+    "@nebula.gl/overlays": "^1.0.4",
+    "@turf/turf": "^6.5.0",
+    "axios": "^0.26.0",
+    "chroma-js": "^2.4.2",
+    "comlink": "^4.3.1",
+    "core-js": "^3.26.0",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
+    "i": "^0.3.7",
+    "lodash": "^4.17.21",
+    "luxon": "^3.0.4",
+    "mapbox-gl": "^2.10.0",
+    "nebula.gl": "^1.0.4",
+    "npm": "^8.19.2",
+    "papaparse": "^5.3.2",
+    "register-service-worker": "^1.7.1",
+    "tokml": "^0.4.0",
+    "turf-linestring": "^1.0.2",
+    "turf-multilinestring": "^1.0.2",
+    "turf-multipolygon": "^1.0.1",
+    "turf-point": "^2.0.1",
+    "turf-polygon": "^1.0.3",
+    "uuid": "^9.0.0",
+    "vue": "^3.2.41",
+    "vue-boring-avatars": "^1.3.0",
+    "vue-router": "^4.1.6",
+    "vue-router-prefetch": "^2.0.0",
+    "vue-toastification": "^2.0.0-rc.5",
+    "vue-virtual-scroller": "^2.0.0-alpha.1",
+    "vue3-click-away": "^1.2.4",
+    "vue3-colorpicker": "^2.0.4",
+    "vue3-dropzone": "^2.0.1",
+    "vue3-lazyload": "^0.3.6",
+    "vue3-slider": "^1.8.0",
+    "vue3-smooth-dnd": "^0.0.2",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-eslint": "~5.0.8",
+    "@vue/cli-plugin-pwa": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "@vue/compiler-sfc": "^3.2.41",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.26.0",
+    "eslint-plugin-vue": "^9.6.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
+    "style-resources-loader": "^1.5.0",
+    "webpack-bundle-analyzer": "^4.6.1"
+  },
+  "eslintConfig": {
+    "root": false,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
