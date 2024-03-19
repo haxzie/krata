@@ -1,4 +1,9 @@
-# mapster
+# Krata
+Krata is a fork of original cloud based GeoJSON editor and map maker. This is a stripped down version of the cloud app with no persistant data. All the data will be destroyed once the tab is closed.
+
+
+# TODO
+- [] Add dexie powered indexedDB caching
 
 ## Project setup
 ```
