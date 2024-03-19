@@ -3,7 +3,7 @@ Krata is a fork of original cloud based GeoJSON editor and map maker. This is a 
 
 
 ## TODO
-- [] Add dexie powered indexedDB caching
+- [ ] Add dexie powered indexedDB caching
 
 ## Project setup
 ```
